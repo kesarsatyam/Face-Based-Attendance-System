@@ -94,6 +94,7 @@ def main(n):
         with open('StudentList.csv', mode='a') as file_:
             file_.write("{},{},{}".format(pose_x, pose_y,pose_z))
             file_.write("\n")
+# Further we can make GUI for to where we can list the users details to mark the attendance as well register themsalves.
 #n=str(input())
 #main('shivam')
 #main('satyam')
